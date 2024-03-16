@@ -1,0 +1,47 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"constrained","wideSize":"100vw"}} -->
+    <section class="wp-block-group" style="margin-top:0;margin-bottom:0;padding:28px 40px"><!-- wp:columns -->
+        <h1>Your Home for Comics and Live Music Reviews!</h1>
+        <div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
+            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textAlign":"center"} -->
+                <h2 class="wp-block-heading has-text-align-center">Comics</h2>
+                <!-- /wp:heading -->
+                
+                <!-- wp:query {"queryId":38,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"category":[8]}}} -->
+                <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default"}} -->
+                <!-- wp:post-featured-image {"isLink":true} /-->
+                
+                <!-- wp:post-title /-->
+                
+                <!-- wp:post-date /-->
+                
+                <!-- wp:post-excerpt {"moreText":"Read more"} /-->
+                <!-- /wp:post-template --></div>
+                <!-- /wp:query --></div>
+                <!-- /wp:column -->
+                
+                <!-- wp:column {"width":"50%"} -->
+                <div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textAlign":"center"} -->
+                <h2 class="wp-block-heading has-text-align-center">Music</h2>
+                <!-- /wp:heading -->
+                
+                <!-- wp:paragraph -->
+                <p></p>
+                <!-- /wp:paragraph -->
+                
+                <!-- wp:query {"queryId":38,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"category":[20]}}} -->
+                <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default"}} -->
+                <!-- wp:post-featured-image {"isLink":true} /-->
+                
+                <!-- wp:post-title /-->
+                
+                <!-- wp:post-date /-->
+                
+                <!-- wp:post-excerpt {"moreText":"Read more"} /-->
+                <!-- /wp:post-template --></div>
+            <!-- /wp:query --></div>
+        <!-- /wp:column --></div>
+    <!-- /wp:columns --></section>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->

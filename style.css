@@ -1,0 +1,40 @@
+/*
+Theme Name: Easy Does It
+Theme URI: https://github.com/PAMulligan/Easy-Does-It/
+Author: Paul Mulliganiel
+Author URI: https://github.com/PAMulligan
+Description: Custom theme for the comics & music blog Pull List.
+Template: twentytwentyfour
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 8.0
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+/*
+** GENERAL
+*/
+h1 {
+    text-align: center;
+}
+/*
+** FOOTER
+*/
+footer > div > .wp-block-columns > div:nth-child(2) > div > nav {
+    display: none;
+}
+footer .wp-block-site-logo,
+footer .wp-block-site-tagline {
+    margin: 0 auto;
+}
+/*
+** MEDIA QUERIES
+*/
+@media screen and (min-width: 1280px) {
+    footer > div > .wp-block-columns > div:nth-child(2) > div > nav {
+        display: flex;
+    }
+    footer .wp-block-navigation .wp-block-page-list {
+        flex-direction: row;
+    }
+}

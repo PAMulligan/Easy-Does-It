@@ -1,0 +1,77 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#feba05",
+					"slug": "primary-yellow",
+					"name": "Primary Yellow"
+				},
+				{
+					"color": "#fca102",
+					"slug": "secondary-yellow",
+					"name": "Secondary Yellow"
+				},
+				{
+					"color": "#ef8000",
+					"slug": "tertiary-yellow",
+					"name": "Tertiary Yellow"
+				},
+				{
+					"color": "#fa0c08",
+					"slug": "primary-red",
+					"name": "Primary Red"
+				},
+				{
+					"color": "#e00001",
+					"slug": "secondary-red",
+					"name": "Secondary Red"
+				},
+				{
+					"color": "#c80004",
+					"slug": "tertiary-red",
+					"name": "Tertiary Red"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "80%"
+		}
+	},
+	"styles": {
+		"elements": {
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--primary-red)"
+				}
+			},
+			"h2": {
+				"color": {
+					"text": "var(--wp--preset--color--secondary-red)"
+				}
+			},
+			"h3": {
+				"color": {
+					"text": "var(--wp--preset--color--tertiary-red)"
+				}
+			},
+			"h4": {
+				"color": {
+					"text": "var(--wp--preset--color--primary-yellow)"
+				}
+			},
+			"h5": {
+				"color": {
+					"text": "var(--wp--preset--color--secondary-yellow)"
+				}
+			},
+			"h6": {
+				"color": {
+					"text": "var(--wp--preset--color--tertiary-yellow)"
+				}
+			}
+		}
+	}
+}
