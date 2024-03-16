@@ -16,6 +16,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 h1 {
     text-align: center;
+    justify-content: center;
 }
 /*
 ** FOOTER
@@ -30,6 +31,11 @@ footer .wp-block-site-tagline {
 /*
 ** MEDIA QUERIES
 */
+@media screen and (min-width: 800px) {
+    .home .wp-block-post-featured-image img {
+        max-width: 90%;
+    }
+}
 @media screen and (min-width: 1280px) {
     footer > div > .wp-block-columns > div:nth-child(2) > div > nav {
         display: flex;
