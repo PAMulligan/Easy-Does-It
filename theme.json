@@ -3,7 +3,28 @@
 	"version": 2,
 	"settings": {
 		"color": {
+			"custom": true,
 			"palette": [
+				{
+					"color": "#ddd",
+					"slug": "off-white",
+					"name": "Off-White"
+				},
+				{
+					"color": "#333",
+					"slug": "off-black",
+					"name": "Off-Black"
+				},
+				{
+					"color": "rgba(221,221,221,0.5)",
+					"slug": "trans-off-white",
+					"name": "Translucent Off-White"
+				},
+				{
+					"color": "rgba(51,51,51,0.5)",
+					"slug": "trans-off-black",
+					"name": "Translucent Off-Black"
+				},
 				{
 					"color": "#feba05",
 					"slug": "primary-yellow",
@@ -38,6 +59,27 @@
 		},
 		"layout": {
 			"contentSize": "80%"
+		},
+		"spacing": {
+			"blockGap": false
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Kinfolk",
+					"name": "Kinfolk",
+					"slug": "kinfolk",
+					"fontFace": [
+						{
+							"fontFamily": "Kinfolk",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["./assets/fonts/Kinfolk.woff2"]
+						}
+					]
+				}
+			]
 		}
 	},
 	"styles": {
@@ -72,6 +114,9 @@
 					"text": "var(--wp--preset--color--tertiary-yellow)"
 				}
 			}
+		},
+		"typography": {
+			"fontFamily": "Kinfolk"
 		}
 	}
 }

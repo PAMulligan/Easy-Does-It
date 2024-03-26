@@ -17,6 +17,13 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 h1 {
     text-align: center;
     justify-content: center;
+    /* <div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div> */
+}
+/*
+** HOME PAGE
+*/
+.wp-block-post-featured-image a {
+    text-align: center;
 }
 /*
 ** FOOTER
@@ -29,11 +36,27 @@ footer .wp-block-site-tagline {
     margin: 0 auto;
 }
 /*
+** INTERNAL
+*/
+.page-id-370 main > div:first-child {
+    display: none;
+}
+.page-id-370 main,
+.page-id-370 main > div:nth-child(2) {
+    margin-top: 0;
+}
+/*
 ** MEDIA QUERIES
 */
+@media screen and (max-width: 799px) {
+    .wp-block-post-content-is-layout-constrained {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 @media screen and (min-width: 800px) {
     .home .wp-block-post-featured-image img {
-        max-width: 90%;
+        max-width: 70%;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -42,5 +65,9 @@ footer .wp-block-site-tagline {
     }
     footer .wp-block-navigation .wp-block-page-list {
         flex-direction: row;
+    }
+    .page-id-370 main > div:nth-child(2) .wp-block-group:first-child {
+        height: calc(100vh - 100px);
+        box-sizing: border-box;
     }
 }
