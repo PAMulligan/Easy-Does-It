@@ -17,7 +17,6 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 h1 {
     text-align: center;
     justify-content: center;
-    /* <div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div> */
 }
 /*
 ** HOME PAGE
@@ -38,6 +37,9 @@ footer .wp-block-site-tagline {
 /*
 ** INTERNAL
 */
+.page-id-367 .wp-block-group-is-layout-flex {
+    justify-content: space-between;
+}
 .page-id-370 main > div:first-child {
     display: none;
 }
@@ -66,8 +68,14 @@ footer .wp-block-site-tagline {
     footer .wp-block-navigation .wp-block-page-list {
         flex-direction: row;
     }
-    .page-id-370 main > div:nth-child(2) .wp-block-group:first-child {
+    .page-id-370 main > div:nth-child(2) > .wp-block-group:first-child {
         height: calc(100vh - 100px);
         box-sizing: border-box;
+    }
+    .page-id-370 .entry-content > div:nth-child(1) > div {
+        max-width: 900px;
+        position: absolute;
+        top: 30%;
+        left: 28%;
     }
 }

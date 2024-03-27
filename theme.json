@@ -79,6 +79,38 @@
 						}
 					]
 				}
+			],
+			"fontSizes": [
+				{
+					"slug": "x-small",
+					"size": "0.5rem",
+					"name": "Extra Small"
+				},
+				{
+					"slug": "small",
+					"size": "0.8rem",
+					"name": "Small"
+				},
+				{
+					"slug": "medium",
+					"size": "1rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "1.5rem",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "2rem",
+					"name": "Extra Large"
+				},
+				{
+					"slug": "xx-large",
+					"size": "3rem",
+					"name": "Double XL"
+				}
 			]
 		}
 	},
