@@ -55,20 +55,16 @@ footer .wp-block-site-tagline {
     justify-content: space-between;
     align-items: center;
 }
-.page-id-367 .entry-content > div > .wp-block-media-text {
-    max-height: 400px;
-    max-width: 900px;
-}
-.page-id-367 .entry-content > div > .wp-block-media-text:nth-child(even) {
+.page-id-367 .entry-content > div > div:nth-child(even) > div:nth-child(2) > div {
     direction: rtl;
 }
-.page-id-367 .entry-content > div > .wp-block-media-text:nth-child(2) > figure > img {
-    max-height: 160px;
+.page-id-367 .entry-content > div > div > div:nth-child(2) > div > figure > img {
+    max-height: 288px;
 }
-.page-id-367 .entry-content.wp-block-post-content.has-global-padding.is-layout-constrained.wp-block-post-content-is-layout-constrained > div > div.wp-block-media-text.is-image-fill.has-primary-blue-background-color.has-background > figure {
+.page-id-367 .entry-content > div > div.alignfull.has-background.has-primary-blue-background-color.wp-block-easyblocks-easycurve > div:nth-child(2) > div > figure {
     background-repeat: no-repeat;
-    background-size: 190px;
-    background-position: 35% 164% !important;
+    background-size: 220px;
+    background-position: 35% 90% !important;
 }
 .page-id-370 main > div:first-child {
     display: none;
