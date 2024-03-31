@@ -38,15 +38,8 @@ footer .wp-block-site-tagline {
 ** FORM
 */
 .page-id-432 .entry-content {
-    max-width: 1100px;
+    max-width: 768px;
     margin: 0 auto;
-}
-#wpforms-form-429 {
-    background-color: var(--wp--preset--color--trans-off-white);
-    padding: 28px;
-    box-sizing: border-box;
-    border: 2px solid var(--wp--preset--color--primary-yellow);
-    border-radius: 12px;
 }
 /*
 ** PORTFOLIO
