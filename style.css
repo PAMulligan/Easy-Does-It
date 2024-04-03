@@ -65,6 +65,16 @@ footer .wp-block-site-tagline {
 .page-id-370 main > div:nth-child(2) {
     margin-top: 0;
 }
+.page-id-454 .entry-content {
+    text-align: center;
+}
+/* Temporary while I work on the portfolio sites*/
+#modal-1-content > ul > ul > li.wp-block-pages-list__item.current-menu-ancestor.has-child.wp-block-navigation-item.open-on-hover-click > ul > li > ul {
+    visibility: hidden;
+}
+#modal-1-content > ul > ul > li.wp-block-pages-list__item.current-menu-ancestor.has-child.wp-block-navigation-item.open-on-hover-click > ul > li > button > svg {
+    display: none;
+}
 /*
 ** MEDIA QUERIES
 */
