@@ -44,6 +44,12 @@ footer .wp-block-site-tagline {
 /*
 ** PORTFOLIO
 */
+.page-id-367 main > .wp-block-group:first-child {
+    display: none;
+}
+.page-id-367 h2 {
+    align-self: baseline;
+}
 .page-id-367 .wp-block-group-is-layout-flex {
     justify-content: space-between;
     align-items: center;
@@ -73,6 +79,16 @@ footer .wp-block-site-tagline {
     .wp-block-post-content-is-layout-constrained {
         padding-left: 0;
         padding-right: 0;
+    }
+    .wp-block-media-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .wp-block-media-text.is-image-fill .wp-block-media-text__media {
+        width: 100%;
+    }
+    .page-id-367 .entry-content > div > div:nth-child(2) {
+        padding: 40px 0 !important;
     }
 }
 @media screen and (min-width: 800px) {

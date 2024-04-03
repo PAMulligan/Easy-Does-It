@@ -64,6 +64,16 @@
 					"color": "#1fff80",
 					"slug": "secondary-blue",
 					"name": "Secondary Blue"
+				},
+				{
+					"color": "#4c678c",
+					"slug": "informational-blue",
+					"name": "Informational Blue"
+				},
+				{
+					"color": "#584f78",
+					"slug": "hire-me-purple",
+					"name": "Hire Me Purple"
 				}
 			]
 		},
@@ -85,7 +95,33 @@
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
-							"src": ["./assets/fonts/Kinfolk.woff2"]
+							"src": ["file:./assets/fonts/Kinfolk.woff2"]
+						}]
+				},
+				{
+					"fontFamily": "Quicksand",
+					"name": "Quicksand",
+					"slug": "quicksand",
+					"fontFace": [
+						{
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./assets/fonts/Quicksand-Regular.woff2"]
+						},
+						{
+							"fontFamily": "Quicksand",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./assets/fonts/Quicksand-SemiBold.woff2"]
+						},
+						{
+							"fontFamily": "Quicksand",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./assets/fonts/Quicksand-Bold.woff2"]
 						}
 					]
 				}
@@ -113,12 +149,12 @@
 				},
 				{
 					"slug": "x-large",
-					"size": "2rem",
+					"size": "1.75rem",
 					"name": "Extra Large"
 				},
 				{
 					"slug": "xx-large",
-					"size": "3rem",
+					"size": "2rem",
 					"name": "Double XL"
 				}
 			]
@@ -158,7 +194,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "Kinfolk"
+			"fontFamily": "Quicksand"
 		}
 	}
 }
