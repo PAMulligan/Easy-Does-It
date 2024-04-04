@@ -105,6 +105,18 @@ footer .wp-block-site-tagline {
     footer .wp-block-navigation .wp-block-page-list {
         flex-direction: row;
     }
+    .page-id-367 .wp-block-easyblocks-easycurve:nth-child(2) {
+        padding-top: 80px !important;
+        padding-bottom: 40px !important;
+    }
+    .page-id-367 .wp-block-easyblocks-easycurve:nth-child(3) {
+        padding-top: 40px !important;
+        padding-bottom: 20px !important;
+    }
+    .page-id-367 .wp-block-easyblocks-easycurve:nth-child(4) {
+        padding-top: 30px !important;
+        padding-bottom: 100px !important;
+    }
     .page-id-370 main > div:nth-child(2) > .wp-block-group:first-child {
         height: calc(100vh - 100px);
         box-sizing: border-box;
