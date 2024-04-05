@@ -58,12 +58,35 @@ footer .wp-block-site-tagline {
 .page-id-367 .entry-content > div > div:nth-child(even) > div:nth-child(2) > div {
     direction: rtl;
 }
-.page-id-370 main > div:first-child {
+.page-id-370 * {
+    font-family: 'Proxima Nova';
+}
+.page-id-370 header {
     display: none;
 }
-.page-id-370 main,
-.page-id-370 main > div:nth-child(2) {
+.page-id-370 .info-header {
+    color: #eee;
+    width: 100%;
+}
+.page-id-370 .info-header p:first-child {
+    font-size: 22px;
+}
+.page-id-370 .info-header a {
+    text-decoration: none;
+}
+.page-id-370 main {
+    margin: 0;
+}
+.page-id-370 .entry-content {
+    padding: 0;
     margin-top: 0;
+}
+.page-id-370 .entry-content div {
+    margin: 0 !important;
+    max-width: unset !important;
+}
+.page-id-370 main > .wp-block-group:first-child {
+    display: none;
 }
 .page-id-454 .entry-content {
     text-align: center;
@@ -116,15 +139,5 @@ footer .wp-block-site-tagline {
     .page-id-367 .wp-block-easyblocks-easycurve:nth-child(4) {
         padding-top: 30px !important;
         padding-bottom: 100px !important;
-    }
-    .page-id-370 main > div:nth-child(2) > .wp-block-group:first-child {
-        height: calc(100vh - 100px);
-        box-sizing: border-box;
-    }
-    .page-id-370 .entry-content > div:nth-child(1) > div {
-        max-width: 900px;
-        position: absolute;
-        top: 30%;
-        left: 28%;
     }
 }

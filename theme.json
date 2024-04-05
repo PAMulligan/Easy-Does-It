@@ -124,6 +124,27 @@
 							"src": ["file:./assets/fonts/Quicksand-Bold.woff2"]
 						}
 					]
+				},
+				{
+					"fontFamily": "Proxima Nova",
+					"name": "Proxima Nova",
+					"slug": "proxima-nova",
+					"fontFace": [
+						{
+							"fontFamily": "Proxima Nova",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./assets/fonts/Proxima-Nova-Regular.woff2"]
+						},
+						{
+							"fontFamily": "Proxima Nova",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./assets/fonts/Proxima-Nova-Semibold.woff2"]
+						}
+					]
 				}
 			],
 			"fontSizes": [

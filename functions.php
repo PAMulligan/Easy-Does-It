@@ -12,6 +12,7 @@ function easy_does_it_scripts() {
 			'strategy' => 'defer',
 		)
 	);
+	add_editor_style();
 }
 add_action( 'wp_enqueue_scripts', 'easy_does_it_scripts' );
 
