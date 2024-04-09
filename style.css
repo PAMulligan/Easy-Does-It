@@ -58,38 +58,61 @@ footer .wp-block-site-tagline {
 .page-id-367 .entry-content > div > div:nth-child(even) > div:nth-child(2) > div {
     direction: rtl;
 }
-.page-id-370 * {
-    font-family: 'Proxima Nova';
-}
-.page-id-370 header {
-    display: none;
-}
-.page-id-370 .info-header {
-    color: #eee;
-    width: 100%;
-}
-.page-id-370 .info-header p:first-child {
-    font-size: 22px;
-}
-.page-id-370 .info-header a {
-    text-decoration: none;
-}
-.page-id-370 main {
-    margin: 0;
-}
-.page-id-370 .entry-content {
-    padding: 0;
-    margin-top: 0;
-}
-.page-id-370 .entry-content div {
-    margin: 0 !important;
-    max-width: unset !important;
-}
-.page-id-370 main > .wp-block-group:first-child {
-    display: none;
-}
 .page-id-454 .entry-content {
     text-align: center;
+}
+.page-id-609 * {
+    font-family: 'Proxima Nova';
+}
+.page-id-609 header,
+.page-id-609 main > .wp-block-group:first-child {
+    display: none;
+}
+.page-id-609 main {
+    margin: 0;
+}
+.page-id-609 .entry-content {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-id-609 .info-header-cta {
+    background: url('/wp-content/uploads/2024/04/pexels-rahul-pandit-3326178-scaled.jpg') no-repeat top, rgba(25,25,25,0.3);
+    background-size: cover;
+    min-height: 70vh;
+    max-width: unset;
+    width: 100%;
+    margin: 0 !important;
+}
+.page-id-609 .info-header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 18px 54px 0 36px;
+}
+.page-id-609 .info-header p:first-child {
+    font-size: 22px;
+    text-decoration: none;
+}
+.page-id-609 .info-header .wp-block-group p:last-child a {
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 8px 12px;
+}
+.page-id-609 .cta-container {
+    width: 50%;
+    color: #fff;
+    margin-top: 60px;
+    gap: 8px;
+}
+.page-id-609 .cta-container p:last-child a {
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 8px 12px;
+}
+.page-id-609 .info-doctor-container {
+    margin-top: 90px;
+    max-width: 900px;
 }
 /* Temporary while I work on the portfolio sites*/
 #modal-1-content > ul > ul > li.wp-block-pages-list__item.current-menu-ancestor.has-child.wp-block-navigation-item.open-on-hover-click > ul > li > ul {
