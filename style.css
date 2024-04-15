@@ -19,6 +19,9 @@ h1 {
     text-align: center;
     justify-content: center;
 }
+a {
+    text-decoration: none;
+}
 /*
 ** HOME PAGE
 */
@@ -60,6 +63,24 @@ footer .wp-block-site-tagline {
 }
 .page-id-454 .entry-content {
     text-align: center;
+}
+.page-id-454 .wp-block-easyblocks-easy-gallery a:first-child .easy-gallery-overlay,
+.page-id-454 .wp-block-easyblocks-easy-gallery a:first-child .easy-gallery-tagline {
+    background-color: var(--wp--preset--color--informational-blue);
+    color: var(--wp--preset--color--off-white);
+}
+.page-id-454 .wp-block-easyblocks-easy-gallery a:nth-child(2) .easy-gallery-overlay,
+.page-id-454 .wp-block-easyblocks-easy-gallery a:nth-child(2) .easy-gallery-tagline {
+    background-color: var(--wp--preset--color--lime-green);
+}
+.page-id-454 .wp-block-easyblocks-easy-gallery a:nth-child(3) .easy-gallery-overlay,
+.page-id-454 .wp-block-easyblocks-easy-gallery a:nth-child(3) .easy-gallery-tagline {
+    background-color: var(--wp--preset--color--tertiary-yellow);
+}
+.page-id-454 .wp-block-easyblocks-easy-gallery a:nth-child(4) .easy-gallery-overlay,
+.page-id-454 .wp-block-easyblocks-easy-gallery a:nth-child(4) .easy-gallery-tagline {
+    background-color: var(--wp--preset--color--vivid-purple);
+    color: var(--wp--preset--color--off-white);
 }
 .page-id-609 * {
     font-family: 'Proxima Nova';
@@ -114,17 +135,16 @@ footer .wp-block-site-tagline {
     margin-top: 90px;
     max-width: 900px;
 }
-/* Temporary while I work on the portfolio sites*/
-#modal-1-content > ul > ul > li.wp-block-pages-list__item.current-menu-ancestor.has-child.wp-block-navigation-item.open-on-hover-click > ul > li > ul {
-    visibility: hidden;
-}
-#modal-1-content > ul > ul > li.wp-block-pages-list__item.current-menu-ancestor.has-child.wp-block-navigation-item.open-on-hover-click > ul > li > button > svg {
-    display: none;
-}
 /*
 ** MEDIA QUERIES
 */
 @media screen and (max-width: 799px) {
+    header .wp-block-navigation__responsive-container {
+        background-color: var(--wp--preset--color--primary-yellow) !important;
+    }
+    #modal-1-content > ul > li.wp-block-navigation-item.has-child.open-on-hover-click.wp-block-navigation-submenu > ul {
+        background-color: var(--wp--preset--color--secondary-yellow) !important;
+    }
     .wp-block-post-content-is-layout-constrained {
         padding-left: 0;
         padding-right: 0;
