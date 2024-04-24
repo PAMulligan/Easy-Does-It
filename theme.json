@@ -6,11 +6,6 @@
 			"custom": true,
 			"palette": [
 				{
-					"color": "#fff",
-					"slug": "pure-white",
-					"name": "Pure White"
-				},
-				{
 					"color": "#ddd",
 					"slug": "off-white",
 					"name": "Off-White"
